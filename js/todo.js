@@ -1,17 +1,3 @@
-class Task {
-
-    constructor(id) {
-        this.element = document.getElementById('')
-        this.delete.bind(this)
-        this.element.addEventListener('click', this.delete)
-    }
-
-    delete() {
-        this.element.parentNode.removeChild(this.element);
-    }
-
-}
-
 const form = document.getElementById('task_form')
 const input = document.getElementById('task_input')
 const list = document.querySelector('main ul')
